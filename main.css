@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
 }
 body {
   background-color: #fff;
+  font-family: 'Epilogue', sans-serif;
 }
 .navbar {
   display: flex;
@@ -72,4 +72,37 @@ body {
   margin-right: 100px;
   max-width: 100vh;
   margin-bottom: 50px;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 68px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 42px 24px;
+    text-align: center;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 64px;
+}
+.skill-img{
+    margin-bottom: 42px;
+}
+.skills-heading{
+    margin-bottom: 12px;
+}
+.skills-paraghraph{
+    line-height: 135%;
 }
