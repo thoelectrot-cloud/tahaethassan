@@ -5,7 +5,7 @@
 }
 body {
   background-color: #fff;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 .navbar {
   display: flex;
@@ -34,11 +34,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
+  padding: 58px;
 }
 .hero-text {
   margin-left: 80px;
   margin-bottom: 220px;
   letter-spacing: 0%;
+  margin-top: 58px;
 }
 
 .subtitle {
@@ -70,39 +72,166 @@ body {
 }
 .hero-image {
   margin-right: 100px;
-  max-width: 100vh;
+  min-width: 320px;
+  margin-bottom: 50px;
+  max-width: 480px;
+}
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 68px;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 42px 24px;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-bottom: 64px;
+}
+.skill-img {
+  margin-bottom: 42px;
+}
+.skills-heading {
+  margin-bottom: 12px;
+}
+.skills-paraghraph {
+  line-height: 135%;
+}
+.latest-work {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.latest-work h2 {
+  text-align: center;
+  font-size: 32px;
   margin-bottom: 50px;
 }
-.brands{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 42px 68px;
-}
-.skills{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    margin: 42px 24px;
-    text-align: center;
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-left: 42px;
-    padding-right: 42px;
-    padding-bottom: 64px;
+
+.card2 img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
-.skill-img{
-    margin-bottom: 42px;
+
+.card2 p:first-of-type {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 18px;
 }
-.skills-heading{
-    margin-bottom: 12px;
+
+.card2 p:last-of-type {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #777;
 }
-.skills-paraghraph{
-    line-height: 135%;
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  background-color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer-text-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #2d2d2d;
+  margin-bottom: 24px;
+}
+
+.footer-description {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.6;
+  max-width: 450px;
+  margin-bottom: 32px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.footer-form-section {
+  flex: 1;
+  max-width: 450px;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border: none;
+  font-size: 16px;
+  color: #2d2d2d;
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: #999999;
+}
+
+.submit-btn {
+  width: 170px;
+  padding: 18px 0;
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
