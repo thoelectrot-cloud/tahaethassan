@@ -31,4 +31,45 @@ body {
 
 .hero {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 220px;
+  letter-spacing: 0%;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 68px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+.description {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 64px;
+  border-radius: 0;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+  margin-top: 48px;
+}
+.hero-image {
+  margin-right: 100px;
+  max-width: 100vh;
+  margin-bottom: 50px;
 }
